@@ -1,0 +1,12 @@
+{
+  "dataset": "imagenet100",
+  "classes_file": "imagenet100_classes.txt",
+  "data_root": "data/imagenet100",
+  "dit_checkpoint": "checkpoints/DiT-XL-2-256x256.pt",
+  "reference": "artifacts/reference/imagenet100/resnet18/final.pt",
+  "vae": "stabilityai/sd-vae-ft-mse",
+  "offline": false,
+  "minimax_checkpoint": "artifacts/finetune/imagenet100/minimax.pt",
+  "ims3_checkpoint": "artifacts/finetune/imagenet100/ims3.pt",
+  "class_source": "MinimaxDiffusion/misc/class100.txt"
+}

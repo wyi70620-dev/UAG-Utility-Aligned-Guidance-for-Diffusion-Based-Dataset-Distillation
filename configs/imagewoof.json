@@ -1,0 +1,12 @@
+{
+  "dataset": "imagewoof",
+  "classes_file": "imagewoof_classes.txt",
+  "data_root": "data/imagewoof",
+  "dit_checkpoint": "checkpoints/DiT-XL-2-256x256.pt",
+  "reference": "artifacts/reference/imagewoof/resnet18/final.pt",
+  "vae": "stabilityai/sd-vae-ft-mse",
+  "offline": false,
+  "minimax_checkpoint": "artifacts/finetune/imagewoof/minimax.pt",
+  "ims3_checkpoint": "artifacts/finetune/imagewoof/ims3.pt",
+  "class_source": "MinimaxDiffusion/misc/class_woof.txt"
+}

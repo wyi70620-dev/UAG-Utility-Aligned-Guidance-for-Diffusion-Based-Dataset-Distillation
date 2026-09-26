@@ -1,0 +1,12 @@
+{
+  "dataset": "imagenet1k",
+  "classes_file": "imagenet1k_classes.txt",
+  "data_root": "data/imagenet1k",
+  "dit_checkpoint": "checkpoints/DiT-XL-2-256x256.pt",
+  "reference": "torchvision:resnet18",
+  "vae": "stabilityai/sd-vae-ft-mse",
+  "offline": false,
+  "minimax_checkpoint": "artifacts/finetune/imagenet1k/minimax.pt",
+  "ims3_checkpoint": "artifacts/finetune/imagenet1k/ims3.pt",
+  "class_source": "MinimaxDiffusion/misc/class_indices.txt"
+}
