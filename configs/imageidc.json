@@ -1,0 +1,12 @@
+{
+  "dataset": "imageidc",
+  "classes_file": "imageidc_classes.txt",
+  "data_root": "data/imageidc",
+  "dit_checkpoint": "checkpoints/DiT-XL-2-256x256.pt",
+  "reference": "artifacts/reference/imageidc/resnet18/final.pt",
+  "vae": "stabilityai/sd-vae-ft-mse",
+  "offline": false,
+  "minimax_checkpoint": "artifacts/finetune/imageidc/minimax.pt",
+  "ims3_checkpoint": "artifacts/finetune/imageidc/ims3.pt",
+  "class_source": "Standard ImageIDC 10 classes; compare against author release when available"
+}
