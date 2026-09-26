@@ -1,0 +1,18 @@
+{
+  "MinimaxDiffusion": {
+    "url": "https://github.com/vimar-gu/MinimaxDiffusion",
+    "commit": "969fc6f0a5e392d22fc2da39d8a130a4c55c6033"
+  },
+  "mode_guidance": {
+    "url": "https://github.com/jachansantiago/mode_guidance",
+    "commit": "d67ee0ce2dbe2f1c4b4e4aa325792bdac2224c19"
+  },
+  "IMS3": {
+    "url": "https://github.com/Westlake-AGI-Lab/IMS3",
+    "commit": "2ada72c66cc2d1375a8af6aabcf4e5745cfdb63f"
+  },
+  "DiT": {
+    "url": "https://github.com/facebookresearch/DiT",
+    "commit": "ed81ce2229091fd4ecc9a223645f95cf379d582b"
+  }
+}
